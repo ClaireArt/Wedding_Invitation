@@ -66,6 +66,7 @@ function Footer() {
                     <h2>~{t('formText.6')}~</h2>
                 </div>
             </div>
+            <h1>tandz</h1>
         </footer>
     )
 }
