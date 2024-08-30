@@ -36,9 +36,9 @@
 }
 
 /* --------------------------------------response-------------------------------- */
-@media screen and (max-width:420px) {
+@media screen and (max-width:450px) {
     .time>span:first-child {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .time>span:last-child {
@@ -46,6 +46,6 @@
     }
 
     .timer>h1 {
-        font-size: 20px;
+        font-size: 16px;
     }
 }

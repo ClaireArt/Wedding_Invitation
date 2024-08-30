@@ -18,7 +18,7 @@
 
 .footer_content>a {
     text-decoration: none;
-    color: rgba(242, 184, 182);
+    color: red;
     font-size: 30px;
 }
 
@@ -55,7 +55,7 @@
 /* --------------------------------------response-------------------------------- */
 @media screen and (max-width:500px) {
     .footer_content>span {
-        color: rgb(255, 205, 151);
+        color: red;
         font-size: 15px;
         text-align: center;
     }

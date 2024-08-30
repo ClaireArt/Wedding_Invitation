@@ -108,7 +108,7 @@ header {
 @keyframes male {
     0% {
         opacity: 0;
-        transform: translateX(-50%);
+        transform: translateX(-20%);
     }
 
     50% {
@@ -132,7 +132,7 @@ header {
 @keyframes female {
     0% {
         opacity: 0;
-        transform: translateX(50%);
+        transform: translateX(20%);
     }
 
     50% {
@@ -174,111 +174,93 @@ header {
         top: 140px;
         left: 130px;
     }
+
     .couple_name {
         position: relative;
     }
+
     .couple {
         position: absolute;
         max-width: 150px;
     }
-    .couple_male{
-        left:10px;
+
+    .couple_male {
+        left: 10px;
+        animation:none;
     }
+
     .couple_female {
-        right:10px;
-    }
-
-    @keyframes female {
-        0% {
-            opacity: 0;
-            transform: translateX(50%);
-        }
-    
-        50% {
-            opacity: 1;
-            transform: translateX(-45%);
-        }
-    
-        100% {
-            opacity: 0;
-            display: none;
-            transform: translateX(-45%);
-        }
-    }
-
-    @keyframes male {
-        0% {
-            opacity: 0;
-            transform: translateX(-50%);
-        }
-    
-        50% {
-            opacity: 1;
-            transform: translateX(45%);
-        }
-    
-        100% {
-            opacity: 0;
-            display: none;
-            transform: translateX(45%);
-        }
+        right: 10px;
+        animation:none;
     }
 }
-/* --------------------- */
+
+/* ------------------------response------------------- */
 
 @media screen and (min-width:421px) and (max-width:800px) {
     header {
         height: 1200px;
     }
+
     .couple_name>img {
         width: 300px;
     }
-  
+
     .couple_name>span {
-        font-size:25px;
+        font-size: 25px;
     }
-    
+
     .male {
         top: 100px;
         left: 70px;
     }
-    
+
     .female {
         top: 140px;
         left: 140px;
     }
+
     .couple_name {
         position: relative;
     }
+
     .couple {
         position: absolute;
         max-width: 150px;
     }
-    .couple_male{
-        left:10px;
+
+    .couple_male {
+        left: 10px;
+        animation:none;
     }
+
     .couple_female {
-        right:10px;
+        right: 10px;
+        animation:none;
     }
 }
+
 /* ------------------- */
 @media screen and (min-width:801px) and (max-width:1200px) {
     header {
         height: 1200px;
     }
+
     .couple_name {
         position: relative;
     }
+
     .couple {
         position: absolute;
     }
-    .couple_male{
-        left:10px;
+
+    .couple_male {
+        left: 10px;
+        animation:none;
     }
+
     .couple_female {
-        right:10px;
+        right: 10px;
+        animation:none;
     }
 }
-
-
-
